@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    height: 600px;
+    width: 400px;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: yellowgreen;
+    margin-bottom: 24px;
+}
+
+.container p{
+    position: absolute;
+    font-size: 100px;
+    font-weight: 700;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #FEF08A;
+    color: #000000b0;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #E5E7EB;
+    cursor: pointer;
+}
+
+.container #reset{
+    position: absolute;
+    left: 10%;
+    padding: 10px;
+    width: 120px;
+    border-radius: 12px;
+    background-color: #EF4444;
+    color: #FFFEF6;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.auto{
+    position: absolute;
+    right: 10%;
+    background-color: #3B82F6;
+    padding: 10px;
+    width: 120px;
+    border-radius: 12px;
+    color: #FFFEF6;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #73C6B6;
+}
+
+.container #increment{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    width: 120px;
+    border-radius: 18px;
+    background-color: #3B82F6;
+    color: #FFFEF6;
+    border: none;
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container #decrement{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    width: 120px;
+    border-radius: 18px;
+    background-color: #3B82F6;
+    color: #FFFEF6;
+    border: none;
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
